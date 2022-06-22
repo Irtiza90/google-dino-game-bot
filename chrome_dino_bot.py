@@ -1,6 +1,6 @@
 import pyautogui as pygui
 
-def is_pixel_grey(xcor: int):
+def is_pixel_grey(xcor: int) -> bool:
     return pygui.pixelMatchesColor(x_cor, 438, expectedRGBColor=(83, 83, 83))
 
 while True:
